@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
   margin: 0;
@@ -14,4 +15,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.xmas-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 6rem;
+  background-color: aliceblue;
+  padding: 3rem 4rem;
+  margin: 2rem;
+  border-radius: 2rem;
 }
